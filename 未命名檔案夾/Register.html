@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>R e g i s t e r</title>
+	
+<SCRIPT LANGUAGE="JavaScript">
+window.onbeforeunload = function confirmExit(){
+return 'Sure to leave ?'; 
+}
+
+
+</SCRIPT>
+</head>
+
+<body bgcolor="#ffffff">
+	
+	<font face="verdana">
+			<h1><p align="center"><i>R e g i s t e r</i></p></h1>	
+	</font>	
+	
+<font face="verdana" color="#454545"><b>	
+<center>
+<div style="border: 1px solid #454545;background-color: #ffffff; width:700px; height:680px; padding: 50px ">
+	
+	<p align="left">First name : <input type="text">   &nbsp; &nbsp; &nbsp;Last name : <input type="text"> </p>
+	 
+<form>
+  <p align="left">Sex :
+	<input type="radio" value="male" >Male 
+		<input type="radio" value="male" >Female</p>
+	
+	<p align="left">
+	Date of birth : <input type="text" size="5" placeholder="YY">  / 
+	  <select name="year">
+		  <option>1</option><option>2</option><option>3</option>
+		  <option>4</option>
+		  <option>5</option>
+		  <option>6</option>
+		  <option>7</option>
+		  <option>8</option>
+		  <option>9</option>
+		  <option>10</option>
+		  <option>11</option>
+		  <option>12</option>
+			
+			
+	  </select>
+	  / <input type="text" size="5" placeholder="DD">
+    
+  </form>
+	<br>
+	<hr >
+	<br>
+	<form>
+	<p align="left">Email : <input type="email" size="40" class="form-control" id="inputEmail" placeholder="Email adress">
+		
+		<p><font size="-3" color="A4A4A4"> Your username and password must have <em>6 to 10 characters</em>  and<em> at least one number</em></font></p>
+		
+ 
+	<p align="left">
+		Username : <input type="input" id="inputAccount" placeholder="Enter user name" required pattern="[A-Za-z0-9]{6,10}" maxlength='10' ><br>
+		
+	<p align="left">Password : <input type="password" class="form-control" id="inputPassword1" placeholder="Password" required pattern="[A-Za-z0-9]{6,10}" maxlength='10'  onchange="$('#inputPassword2').attr('pattern',$(this).val())">
+	&nbsp;&nbsp;&nbsp;		&nbsp;&nbsp;				
+		Confirm Password:<input type="password" id="inputPassword2" required placeholder="password" title='The passwords you entered do not match.'>
+		<br><br><br>
+		
+	  <p><input type="submit" value="S u b m i t" style="width:100px;height:30px;border:2px  none;background-color:#454545; color: #ffffff" >
+		</p>
+		<br>
+	<hr>
+		<br><br>
+		<font color="#5D8DF9" size="+3">Already Have an account?</font>
+		<br><br><br><center><a href="Login.html"><input type="button" value="C l i c k    h e r e    t o    l o g i n" style="width:250px;height:30px;border:2px  none;background-color:#FDB21E " size="60" ></a></center>
+			
+		
+		</font>
+</form>
+	
+	
+
+</script>
+	 
+
+	
+	</center>
+	</b></font>
+	
+	
+</center>	
+
+	
+
+</body>
+</html>
